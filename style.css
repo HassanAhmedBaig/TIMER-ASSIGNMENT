@@ -1,0 +1,37 @@
+.parent{
+    height: 100vh;
+    border: 10px rgb(255, 166, 0) solid;
+    background-image: url("https://image.shutterstock.com/image-photo/hourglass-outdoors-sunlit-sand-timer-260nw-1196170009.jpg");
+    /* height: 80%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    width: 50px;
+}
+.timer{
+    border: 8px rgb(255, 255, 0) solid;
+    border-radius: 5%;
+    margin: 2.5%;
+}
+.startbtn:hover{
+    border: 7px rgb(255, 255, 0) solid;
+    color: black;
+    cursor: alias;
+    
+}
+.startbtn{
+    border: 7px rgb(255, 255, 0) solid;
+    color: rgb(255, 0, 0);
+    background-color: rgba(198, 250, 253, 0.075);
+}
+.reset{
+    color: white;
+}
+.reset:hover{
+    color: white;
+}
+
+
